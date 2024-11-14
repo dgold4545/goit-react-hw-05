@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.item {
+  margin-bottom: 10px;
+  width: calc((100% - 60px) / 6);
+}
+.img {
+  border: none;
+  border-radius: 5px;
+  height: 250px;
+  overflow: hidden;
+}
+.text {
+  font-size: 18px;
+}

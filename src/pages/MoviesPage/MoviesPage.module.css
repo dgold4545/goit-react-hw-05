@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.item {
+  border: none;
+  border-radius: 5px;
+  width: calc((100% - 60px) / 4);
+  height: 450px;
+  overflow: hidden;
+}
+.button {
+  border: none;
+  border-radius: 5px;
+  background-color: #00ffff;
+  padding: 10px;
+  font-size: 18px;
+}
+.input {
+  padding: 10px;
+  font-size: 18px;
+  width: 500px;
+}
+.form {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
