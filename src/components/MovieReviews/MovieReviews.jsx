@@ -29,7 +29,7 @@ const MovieReviews = () => {
   return (
     <>
       <Loader status={loader} />
-      {reviewsList > 0 ? (
+      {reviewsList.length > 0 ? (
         <Reviews reviewsList={reviewsList} />
       ) : (
         <NotFoundPage />
